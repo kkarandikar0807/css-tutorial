@@ -1,0 +1,23 @@
+{
+  "name": "my-css-workbench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkarandikar0807/css-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkarandikar0807/css-tutorial/issues"
+  },
+  "homepage": "https://github.com/kkarandikar0807/css-tutorial#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
